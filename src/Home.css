@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+.logo_nam{
+    font-family: "Inconsolata", monospace;
+    font-size: 45px;
+    color: #EE3A5D;
+    font-weight: 500;
+}
+.logo_img img{
+height: 45px;
+width: 45px;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 72px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.5);
+   
+    
+   
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-top: 10px;
+    margin-right: 72px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.but1{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: "Inconsolata", monospace;
+    font-size: 18px;
+    background-color: #00AEEF;
+    border: none;
+    color: white;
+}
+p{  
+    font-size: 18px;
+    color: #00AEEF;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    font-size: 50px;
+    font-family: "Inconsolata", monospace;
+    margin-top: 150px;
+    font-weight: 600;
+}
+
+.grp img{
+    height: 500px;
+    width: 500px;
+    /* margin-right: 72px; */
+}
+
+.grp{
+    margin-right: 72px;
+}
+
+.line1{
+    margin-bottom: 10px;
+    color: #EE3A5D;
+}
+.line{
+    margin-bottom: 7px;
+    
+}
+.gets{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: "Inconsolata", monospace;
+    font-size: 18px;
+    background-color: #00AEEF;
+    border: none;
+    color: white;
+}
+/* .type{
+    margin: 0 auto;
+} */
+
+.tupe p {
+    font-size: 9vmin;
+    color: #8bf;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    margin: 1rem 0 1rem 2rem;
+  }
+  .typewriter{
+    margin-top: 5px;
+    margin-left: -24px;
+    color: #EE3A5D;
+    font-weight: 700;
+  }
+  /* Typewriter effect 1 */
+  @keyframes typing {
+    0.0000%, 27.3488% { content: ""; }
+    1.1395%, 26.2093% { content: "T"; }
+    2.2791%, 25.0698% { content: "Tr"; }
+    3.4186%, 23.9302% { content: "Tri"; }
+    4.5581%, 22.7907% { content: "Trip"; }
+  
+    30.7674%, 51.2791% { content: ""; }
+    31.9070%, 50.1395% { content: "A"; }
+    33.0465%, 49.0000% { content: "Ad"; }
+    34.1860%, 47.8605% { content: "Adv"; }
+    35.3256%, 46.7209% { content: "Adve"; }
+    36.4651%, 45.5814% { content: "Adven"; }
+    37.6047%, 44.4419% { content: "Advent"; }
+    38.7443%, 43.3023% { content: "Adventu"; }
+    39.8839%, 42.1627%{ content: "Adventur"; }
+    41.0235% , 41.0231%{ content: "Adventure"; }
+
+  
+    54.6977%, 75.2093% { content: "M"; }
+    55.8372%, 74.0698% { content: "Ma"; }
+    56.9767%, 72.9302% { content: "Man"; }
+    58.1163%, 71.7907% { content: "Many "; }
+    59.2558%, 70.6512% { content: "Many M"; }
+    60.3953%, 69.5116% { content: "Many Mo"; }
+    61.5349%, 68.3721% { content: "Many Mor"; }
+    62%, 67% { content: "Many More..."; }
+
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+  }
+  
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+  
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+    
+    @keyframes sequencePopup {
+      0%, 100% { content: "developer"; }
+      25% { content: "writer"; }
+      50% { content: "reader"; }
+      75% { content: "human"; }
+    }
+  
+    .typewriter::before {
+      content: "developer";
+      animation: sequencePopup 12s linear infinite;
+    }
+  }

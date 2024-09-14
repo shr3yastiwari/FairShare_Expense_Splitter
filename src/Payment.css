@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+.payer{
+    font-family: "Inconsolata", monospace;
+}
+
+.opt{
+    font-family: "Inconsolata", monospace;
+}
+
+select{
+    border: none;
+    padding: 5px;
+    border-radius: 5px ;
+    outline: none;
+    margin-left: 5px;
+}
+
+.checkbox-label{
+    
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    gap: 5px;
+}
+
+p{
+    font-family: "Inconsolata", monospace;
+}
+
+.details{
+    /*  */
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inconsolata", monospace;
+}
+
+.p_name{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inconsolata", monospace;
+}
+.paymentfor{
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.PaymentDetails{
+    /* s */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list li{
+    display: block;
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 500;
+    list-style-type: circle;
+
+}
+
+.amount{
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.pay{
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.group-name1{
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+  font-family: "Inconsolata", monospace;
+  background-color:  #ff5c5c;
+  margin-bottom: 20px;
+}
+
+.Side{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+    /* justify-content: space-between; */
+}
+
+.PaymentDetails{
+    width: 50%;
+}
+
+.final{
+    font-family: "Inconsolata", monospace;
+}
+
+.final li{
+    display: block;
+    list-style-type: circle;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.create-groupd {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #7dd9fa;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.create-groupc {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color:#ff5c5c;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.Calcul{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.linein{
+    background-color: #ff5c5c;
+    height: 2px;
+    border-radius: 4px;
+    width: 88.7%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.newbut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-items: center;
+}
